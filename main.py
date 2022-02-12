@@ -13,4 +13,13 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+class MyFirstClass:
+    msg = 'The best way to predict the future is to invent it.'
+    def __init__(self):
+    def classMethod(self):
+        print(MyFirstClass.msg + '\t- Alan Curtis Kay -')
+
+mfc = MyFirstClass()
+
+print(mfc.msg)
+mfc.classMethod()
